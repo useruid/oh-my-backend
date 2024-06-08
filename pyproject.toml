@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "oh-my-backend"
+version = "0.1.0"
+description = ""
+authors = ["George"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.105.0"
+uvicorn = "^0.24.0.post1"
+python-dotenv = "^1.0.0"
+sqlalchemy = "^2.0.23"
+fastapi-sqlalchemy = "^0.2.1"
+psycopg2-binary = "^2.9.9"
+loguru = "^0.7.2"
+bcrypt = "^4.1.2"
+pytest = "^8.1.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
